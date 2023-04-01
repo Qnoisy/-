@@ -1,0 +1,31 @@
+:root {
+	--ff-Gilroy: "Gilroy";
+	--ff-Montserrat: "Montserrat";
+	--ff-Proxima: "Proxima";
+	--ff-Geometria: "Geometria";
+
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-semibold: 600;
+	--fw-extraBold: 800;
+
+	--clr-text-gray: #44444E;
+	/*--clr-orange-gradient: background: radial-gradient(106.03% 136.67% at 50% 0%, #FFC400 0%, #FF9900 100%);
+	box-shadow: inset 0px 0px 12px rgba(255, 255, 255, 0.5);
+	border-radius: 60px;*/
+	--clr-black: ##303030;
+	/*--clr-orange:background: radial-gradient(106.03% 136.67% at 50% 0%, #FFC400 0%, #FF9900 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;*/
+	--clr-green: #4EDD4C;
+	/*--clr-gray-gradient: background: linear-gradient(269.73deg, #4B4A53 9.23%, #808086 54.08%, #4B4A53 99.88%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;*/
+	--clr-blue-gray: #758499;
+	--clr-white: #fff;
+}

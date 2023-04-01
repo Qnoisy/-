@@ -1,5 +1,16 @@
 /*Обнуляючі стилі*/
-@import url("null.css")
+@import url("null.css");
+
+/*Підключення шрифтів*/
+@import url("fonts.css");
+
+/*Підключення змінних*/
+@import url("var.css");
+
+/**/
+/**/
+/**/
+/**/
 /**/
 /**/
 /**/
