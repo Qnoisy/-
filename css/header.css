@@ -164,7 +164,7 @@
 	letter-spacing: 0.02em;
 }
 
-.d-none {
+.display-none {
 	display: none;
 }
 
@@ -234,7 +234,7 @@
 		justify-items: center;
 	}
 
-	.d-none {
+	.display-none {
 		display: block;
 	}
 }
