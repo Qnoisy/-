@@ -259,6 +259,10 @@
 }
 
 @media (max-width: 37.5em) {
+	.footer {
+		background-color: var(--clr-gray);
+	}
+
 	.footer-grid {
 		display: grid;
 		gap: 2rem;
