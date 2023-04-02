@@ -1,13 +1,14 @@
 :root {
 	--ff-Gilroy: "Gilroy";
-	--ff-Montserrat: "Montserrat";
+	--ff-Montserrat: 'Montserrat';
+	;
 	--ff-Proxima: "Proxima";
 	--ff-Geometria: "Geometria";
 
 	--fw-light: 300;
 	--fw-regular: 400;
-	--fw-medium: 500;
-	--fw-semibold: 600;
+	--fw-medium: 600;
+	--fw-semibold: 700;
 	--fw-extraBold: 800;
 
 	--clr-text-gray: #44444E;

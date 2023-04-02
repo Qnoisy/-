@@ -9,7 +9,9 @@
 
 /*Спільні стилі*/
 @import url("common.css");
-/**/
+
+/*header.css*/
+@import url("header.css");
 /**/
 /**/
 /**/

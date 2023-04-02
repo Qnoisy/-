@@ -39,22 +39,24 @@ body {
 
 .text-orange-gradient {
   background: radial-gradient(106.03% 136.67% at 50% 0%, #FFC400 0%, #FF9900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.orange-gradient {
+  background: radial-gradient(106.03% 136.67% at 50% 0%, #FFC400 0%, #FF9900 100%);
   box-shadow: inset 0px 0px 12px rgba(255, 255, 255, 0.5);
   border-radius: 60px;
 }
 
-.title-catalog-graident {
+.text-gray-gradient {
   background: linear-gradient(269.73deg, #4B4A53 9.23%, #808086 54.08%, #4B4A53 99.88%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  font-family: var(--ff-Gilroy);
-  font-weight: var(--fv-medium);
-  font-size: 2.75rem;
-  line-height: 120.454545%;
-  /* 53/44 */
-  text-transform: uppercase;
 }
 
 .title {

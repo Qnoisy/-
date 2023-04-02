@@ -1,0 +1,124 @@
+.header {
+	color: var(--clr-text-gray);
+}
+
+.header__container {
+	padding: 1rem 0px;
+}
+
+.header-grid {
+	display: grid;
+	gap: 1.2rem;
+	grid-auto-flow: column;
+	grid-auto-columns: 6.25rem repeat(6, auto);
+	grid-auto-rows: 1fr;
+	align-items: center;
+}
+
+.header__logo {}
+
+.header__location {}
+
+.header__vertical-span {
+	display: block;
+	width: 1px;
+	margin: auto 0;
+	height: 70px;
+	background-color: var(--clr-text-gray);
+}
+
+
+.header__location-text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1rem;
+	line-height: 155%;
+	color: var(--clr-text-gray);
+}
+
+.header__price-list {
+	display: flex;
+	gap: 1.25rem;
+	align-items: center;
+}
+
+.header__price-list-circle {
+	width: 3.8125rem;
+	height: 3.8125rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__price-list-circle span {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1rem;
+	line-height: 100%;
+	/* or 16px */
+	letter-spacing: 0.04em;
+	color: var(--clr-text-gray);
+	text-transform: uppercase;
+}
+
+
+.header__price-list-text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1rem;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+}
+
+.header__catalog {
+	height: 3.8125rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.header__catalog span {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1rem;
+	line-height: 130%;
+	/* or 16px */
+	letter-spacing: 0.04em;
+	color: var(--clr-text-gray);
+}
+
+.header__question {
+	height: 100%;
+	display: grid;
+	align-content: space-between;
+}
+
+.header__question-text {
+	font-family: var(--ff-Montserrat);
+	font-weight: var(--fw-regular);
+	font-size: 0.875rem;
+	line-height: 150%;
+	/* 21/14 */
+}
+
+.header__question-text::before {
+	display: inline-block;
+	content: "";
+	width: 6px;
+	height: 6px;
+	background-color: var(--clr-green);
+	border-radius: 50%;
+}
+
+.header__question-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__question-row span {
+	width: 50px;
+	height: 41px;
+}
+
+.header__tel {}

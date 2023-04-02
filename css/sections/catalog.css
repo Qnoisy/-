@@ -1,0 +1,8 @@
+.title-catalog-graident {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fv-medium);
+	font-size: 2.75rem;
+	line-height: 120.454545%;
+	/* 53/44 */
+	text-transform: uppercase;
+}
