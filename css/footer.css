@@ -1,0 +1,304 @@
+.footer {
+	color: var(--clr-text-gray);
+}
+
+.footer__container {
+	padding: 1rem 0px;
+}
+
+.footer-grid {
+	display: grid;
+	gap: 3rem;
+	grid-auto-flow: column;
+	grid-auto-columns: repeat(7, auto);
+	grid-auto-rows: 1fr;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.footer__logo {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+
+.footer__location {}
+
+.footer__vertical-span {
+	display: block;
+	width: 1px;
+	margin: auto 0;
+	height: 70px;
+	background-color: var(--clr-text-gray);
+}
+
+
+.footer__location-text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1rem;
+	line-height: 155%;
+	color: var(--clr-black);
+}
+
+.footer__price-list {
+	display: flex;
+	gap: 1.25rem;
+	align-items: center;
+}
+
+.footer__price-list-circle {
+	width: 3.8125rem;
+	height: 3.8125rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__price-list-circle:hover {
+	filter: brightness(0.9);
+}
+
+.footer__price-list-circle span {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1rem;
+	line-height: 100%;
+	/* or 16px */
+	letter-spacing: 0.04em;
+	color: var(--clr-text-gray);
+	text-transform: uppercase;
+}
+
+
+.footer__price-list-text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1rem;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	padding: 0.4rem 0;
+	color: var(--clr-black);
+}
+
+.footer__catalog {
+	height: 3.8125rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0.5rem;
+}
+
+.footer__catalog:hover {
+	filter: brightness(0.9);
+}
+
+.footer__catalog span {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1rem;
+	line-height: 130%;
+	/* or 16px */
+	letter-spacing: 0.04em;
+	color: var(--clr-text-gray);
+}
+
+.footer__question {
+	height: 100%;
+	display: grid;
+	align-content: space-between;
+}
+
+.footer__question-text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1rem;
+	line-height: 150%;
+	/* 21/14 */
+	text-align: center;
+	color: var(--clr-text-gray);
+}
+
+.footer__question-text::before {
+	display: inline-block;
+	content: "";
+	position: relative;
+	bottom: 1.5px;
+	right: 2px;
+	width: 6px;
+	height: 6px;
+	background-color: var(--clr-green);
+	border-radius: 50%;
+}
+
+.footer__question-row {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.footer__question-row a {
+	width: 50px;
+	height: 41px;
+}
+
+
+.footer__tel {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1.75rem;
+	line-height: 150%;
+}
+
+.footer__tel p {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1.125rem;
+	line-height: 150%;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color: var(--clr-text-gray);
+	color: var(--clr-black);
+	letter-spacing: 0.02em;
+}
+
+.d-none {
+	display: none;
+}
+
+.copyright {
+	text-align: center;
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-light);
+	font-size: 0.9375rem;
+	line-height: 150%;
+	color: var(--clr-text-gray);
+}
+
+.copyright p {
+	margin-bottom: 0.5rem;
+}
+
+.copyright p:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 93.75em) {
+	.footer-grid {
+		gap: 1rem;
+	}
+
+	.footer__price-list {
+		gap: 1rem;
+	}
+
+	.footer__price-list-text {
+		font-size: 0.9rem;
+	}
+
+	.footer__catalog span {
+		font-size: 0.9rem;
+	}
+
+	.footer__tel {
+		font-size: 1.4rem;
+	}
+
+	.footer__tel p {
+		text-align: start;
+	}
+}
+
+@media (max-width: 81.25em) {
+	.footer-grid {
+		display: grid;
+		gap: 2rem;
+		grid-auto-flow: column;
+		grid-auto-columns: auto;
+		grid-auto-rows: 1fr;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.footer__logo {
+		display: block;
+	}
+
+	.footer__vertical-span {
+		display: none;
+	}
+
+	.footer__location {
+		display: none;
+	}
+
+	.footer__question {
+		display: none;
+	}
+
+	.footer__tel p {
+		text-align: end;
+		font-size: 0.9rem;
+		margin-bottom: 0.35rem;
+	}
+
+	.footer__tel {
+		display: grid;
+		font-size: 1.2rem;
+		justify-items: center;
+	}
+}
+
+@media (max-width: 56.25em) {
+	.footer__price-list {
+		display: none;
+	}
+}
+
+@media (max-width: 37.5em) {
+	.footer-grid {
+		display: grid;
+		gap: 2rem;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-auto-rows: auto;
+		align-content: center;
+		justify-items: center;
+	}
+
+	.footer__vertical-span {
+		display: block;
+	}
+
+	.footer__location {
+		display: block;
+	}
+
+	.footer__price-list {
+		display: flex;
+	}
+
+	.footer__catalog {
+		display: flex;
+	}
+
+	.footer__question {
+		display: grid;
+		min-height: 5rem;
+	}
+
+	.footer__tel p {
+		text-align: end;
+		font-size: 0.9rem;
+		margin-bottom: 0.35rem;
+	}
+
+	.footer__tel {
+		display: grid;
+		font-size: 1.2rem;
+		justify-items: center;
+	}
+}

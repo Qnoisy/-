@@ -218,14 +218,6 @@
 		display: none;
 	}
 
-	.header__price-list {}
-
-	.header__catalog {}
-
-	.header__question {
-		display: none;
-	}
-
 	.header__question {
 		display: none;
 	}
@@ -256,5 +248,9 @@
 @media (max-width: 37.5em) {
 	.header__catalog {
 		display: none;
+	}
+
+	.header__tel {
+		font-size: 1.1rem;
 	}
 }
