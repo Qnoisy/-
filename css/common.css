@@ -52,6 +52,7 @@ body {
 }
 
 .text-gray-gradient {
+  display: block;
   background: linear-gradient(269.73deg, #4B4A53 9.23%, #808086 54.08%, #4B4A53 99.88%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
