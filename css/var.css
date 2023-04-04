@@ -5,7 +5,7 @@
 	--ff-Geometria: "Geometria";
 
 	--fw-light: 300;
-	--fw-regular: 400;
+	--fw-regular: 500;
 	--fw-medium: 600;
 	--fw-semibold: 700;
 	--fw-extraBold: 800;
@@ -27,6 +27,7 @@
 	background-clip: text;
 	text-fill-color: transparent;*/
 	--clr-blue-gray: #758499;
+	--clr-light-gray: #69686F;
 	--clr-white: #fff;
 	--clr-gray: #F5F5F5;
 

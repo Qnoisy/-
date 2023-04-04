@@ -1,0 +1,147 @@
+.section-business {
+	position: relative;
+}
+
+.business {
+	background-color: var(--clr-white);
+}
+
+
+.business__row-text {
+	display: flex;
+	margin-bottom: 5.3125rem;
+}
+
+.business__title {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 4.1875rem;
+	line-height: 130%;
+	/* or 87px */
+	text-transform: uppercase;
+	flex: 1 1 68%;
+}
+
+.business__text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1.0625rem;
+	line-height: 180%;
+	/* or 31px */
+	/* Text */
+	color: var(--clr-text-gray);
+	flex: 1 1 32%;
+}
+
+.business-cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 2.5rem;
+}
+
+.business-card {
+	padding: 3.125rem;
+	display: grid;
+	gap: 1.875rem;
+	box-shadow: 0 0 10px #ececec;
+	border-radius: 0.875rem;
+}
+
+.business-card__title {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1.5rem;
+	line-height: 180%;
+}
+
+.business-card__text {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1.125rem;
+	line-height: 150%;
+	/* or 27px */
+	color: var(--clr-light-gray);
+}
+
+@media (max-width: 81.25em) {
+	.business__row-text {
+		display: block;
+		margin-bottom: 4rem;
+	}
+
+	.business__title {
+		font-size: 3.2rem;
+		margin-bottom: 1.75rem;
+	}
+
+	.business__text {
+		font-size: 1.0625rem;
+	}
+
+	.business-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 2rem;
+	}
+
+	.business-card {
+		padding: 30px;
+		gap: 1rem;
+		border-radius: 0.875rem;
+	}
+
+	.business-card__title {
+		font-size: 1.5rem;
+	}
+
+	.business-card__text {
+		font-size: 1.125rem;
+	}
+}
+
+@media (max-width: 56.25rem) {
+	.business-cards {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 2rem;
+	}
+}
+
+@media (max-width: 45em) {
+	.business-cards {
+		gap: 1.25rem;
+	}
+
+	.business__title {
+		font-size: 2.6rem;
+	}
+
+	.business__text {
+		font-size: 0.9375rem;
+	}
+
+	.business-card__title {
+		font-size: 1.125rem;
+	}
+
+	.business-card__text {
+		font-size: 0.9375rem;
+	}
+}
+
+@media (max-width: 31.25rem) {
+	.business__title {
+		font-size: 2rem;
+	}
+
+	.business__text {
+		font-size: 0.9375rem;
+	}
+
+	.business-cards {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+	}
+}
