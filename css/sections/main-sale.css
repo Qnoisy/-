@@ -94,15 +94,6 @@
 	padding: 0 0.9375rem 0rem 0.9375rem;
 }
 
-.position-absolute {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	z-index: 2;
-
-	left: 0;
-}
-
 .media-main {
 	display: none;
 }
@@ -184,10 +175,6 @@
 
 	.main-sale {
 		background: url("../../img/2-main-sale/white.webp");
-	}
-
-	.position-absolute {
-		display: none;
 	}
 
 	.media-main {

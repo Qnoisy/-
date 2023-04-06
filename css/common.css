@@ -37,6 +37,14 @@ body {
 
 /* ==================== */
 
+.position-absolute {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+}
+
 .text-orange-gradient {
   background: radial-gradient(106.03% 136.67% at 50% 0%, #FFC400 0%, #FF9900 100%);
   -webkit-background-clip: text;
