@@ -69,6 +69,11 @@ body {
   text-fill-color: transparent;
 }
 
+.gray-gradient {
+  background: radial-gradient(106.03% 136.67% at 50% 0%, #F1F1F1 0%, #BEC8DC 100%);
+  border-radius: 60px;
+}
+
 .title {
   font-family: var(--ff-Gilroy);
   font-weight: var(--fv-medium);
