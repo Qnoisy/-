@@ -108,9 +108,18 @@
 	flex-wrap: wrap;
 }
 
+.roofing__card {
+	border-radius: 8px;
+}
+
 .roofing__card img {
 	margin-bottom: 0.9375rem;
 	width: 225px;
+	border-radius: 8px;
+}
+
+.roofing__card img:hover {
+	border: 2px solid #FFC400;
 }
 
 .roofing__card {
@@ -300,7 +309,6 @@
 @media (max-width: 45em) {
 	.roofing-grid-cost__man {
 		display: block;
-		;
 	}
 
 	.roofing__title {
