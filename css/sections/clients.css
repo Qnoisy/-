@@ -1,0 +1,129 @@
+.clients {
+	background-color: var(--clr-light-2-gray);
+	position: relative;
+}
+
+.clients__title {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 3.5rem;
+	line-height: 130%;
+	text-transform: uppercase;
+	margin-bottom: 4rem;
+}
+
+.clients__button {
+	background-color: var(--clr-light-2-gray);
+	color: var(--clr-text-gray);
+}
+
+.clients-swiper {
+	padding: 0 1.5rem;
+}
+
+.clients-swiper-wraper {}
+
+.clients-slide {
+	background: var(--clr-white);
+	box-shadow: 0px 4px 25px rgba(159, 189, 207, 0.15);
+	border-radius: 14px;
+	padding: 2rem;
+	position: relative;
+}
+
+.clients__row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+
+.clients__info {
+	display: flex;
+	gap: 1.5625rem;
+
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1.125rem;
+	line-height: 180%;
+	letter-spacing: 0.04em;
+	color: #2E4156;
+}
+
+.clients__info span {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-medium);
+	font-size: 1.125rem;
+	line-height: 180%;
+	letter-spacing: 0.04em;
+	color: #2E4156;
+}
+
+.clients__info p {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1rem;
+	line-height: 140%;
+	letter-spacing: 0.04em;
+	background: linear-gradient(360deg, rgba(46, 65, 86, 0.8) 0%, rgba(105, 128, 159, 0.8) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.clients__info img {
+	border-radius: 50%;
+}
+
+.clients__name {}
+
+.clients__jandex {}
+
+.clients__coment {
+	font-family: var(--ff-Gilroy);
+	font-weight: var(--fw-regular);
+	font-size: 1.125rem;
+	line-height: 180%;
+	color: var(--clr-text-gray);
+	opacity: 0.8;
+}
+
+@media (max-width: 81.25em) {
+	.clients__title {
+		font-size: 3.2rem;
+	}
+
+}
+
+@media (max-width: 56.25em) {
+	.clients__title {
+		font-size: 2.8rem;
+		margin-bottom: 3rem;
+	}
+}
+
+@media (max-width: 45em) {
+	.clients__title {
+		font-size: 2.4rem;
+		margin-bottom: 2rem;
+	}
+
+	.clients-slide {
+		padding: 1rem 1rem 3rem 1rem;
+	}
+
+	.clients__jandex {
+		position: absolute;
+		bottom: 1.5rem;
+	}
+
+	.clients__coment {
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width: 31.25rem) {
+	.clients__title {
+		font-size: 1.875rem;
+		margin-bottom: 1.5rem;
+	}
+}

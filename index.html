@@ -6,9 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Металобаза</title>
-	<link rel="stylesheet" href="css/style.css">
 	<script defer src="https://code.jquery.com/jquery-3.6.4.js"
 		integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script defer src="js/script.js"></script>
 </head>
 
@@ -1440,7 +1442,80 @@
 				<img class="position-absolute" src="img/6-question/bottom-element.png" alt="">
 			</section>
 			<section class="section-clients clients">
-
+				<div class="clients__container">
+					<div class="clients__title">
+						<p class="text-orange-gradient">ЛУЧШЕ ВСЕГО О НАС</p>
+						<p>РАССКАЖУТ НАШИ КЛИЕНТЫ</p>
+					</div>
+					<div class="clients__buttons">
+						<button class="clients__button swiper-button-prev"></button>
+						<button class="clients__button swiper-button-next"></button>
+					</div>
+					<div class="swiper clients-swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper clients-swiper-wraper">
+							<!-- Slides -->
+							<div class="swiper-slide clients-slide">
+								<div class="clients__row">
+									<div class="clients__info">
+										<img src="img/7-clients/client-1.jfif" alt="">
+										<div class="clients__name">
+											<span>Serg</span>
+											<p>27.07.2022</p>
+										</div>
+									</div>
+									<div class="clients__jandex">
+										<img src="img/7-clients/jandex.png" alt="">
+									</div>
+								</div>
+								<div class="clients__coment">
+									Долго думал где покупать арматуру на фундамент, по рекомендации друзей заказывал на
+									этой металлобазе. Менеджер Дмитрий все четко посчитал, цена меня устроила. Доставка
+									была в срок. Буду и дальше с ним работать.
+								</div>
+							</div>
+							<div class="swiper-slide clients-slide">
+								<div class="clients__row">
+									<div class="clients__info">
+										<img src="img/7-clients/client-2.jfif" alt="">
+										<div class="clients__name">
+											<span>Квартира дом</span>
+											<p>21.01.2022</p>
+										</div>
+									</div>
+									<div class="clients__jandex">
+										<img src="img/7-clients/jandex.png" alt="">
+									</div>
+								</div>
+								<div class="clients__coment">
+									Рекомендую! Прекрасная компания. Обращаюсь не в первый раз. Менеджеры
+									клиентоориентированы. Приятно, когда тебя и твои запросы понимают. Всегда гуманные
+									цены. Профлист качественный, снегозадержатели супер. Спасибо!
+								</div>
+							</div>
+							<div class="swiper-slide clients-slide">
+								<div class="clients__row">
+									<div class="clients__info">
+										<img src="img/7-clients/client-3.png" alt="">
+										<div class="clients__name">
+											<span>Вячеслав Е</span>
+											<p>10.12.2022</p>
+										</div>
+									</div>
+									<div class="clients__jandex">
+										<img src="img/7-clients/jandex.png" alt="">
+									</div>
+								</div>
+								<div class="clients__coment">
+									Все чётко. Приняли заказ по телефону, пока ехал подготовили все документы отправили
+									на wats app точку чтобы не заблудился. Приехал, оплатил, забрал 10 минут максимум.
+								</div>
+							</div>
+							...
+						</div>
+					</div>
+				</div>
+				<img class="position-absolute" src="img/7-clients/Rectangle 1469.png" alt="">
 			</section>
 		</main>
 		<footer class="footer">
