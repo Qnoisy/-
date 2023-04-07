@@ -22,6 +22,15 @@
 	align-items: center;
 }
 
+.footer__logo a {
+	transform: scale(0);
+	transition: all 0.8s ease 0.1s;
+}
+
+.footer__logo a.-active {
+	transform: scale(1);
+}
+
 
 .footer__location {}
 

@@ -21,6 +21,15 @@
 	align-items: center;
 }
 
+.header__logo a {
+	transform: scale(0);
+	transition: all 0.8s ease 0s;
+}
+
+.header__logo a.-active {
+	transform: scale(1);
+}
+
 
 .header__location {}
 

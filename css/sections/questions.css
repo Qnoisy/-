@@ -71,12 +71,19 @@
 .question-content__img-girl {
 	max-width: 676px;
 	max-height: 800px;
-	transform: scaleX(-1);
+	transform: scaleX(1);
 	position: relative;
 	bottom: 0;
 	z-index: 8;
 	overflow: hidden;
 	/* margin: 0 30rem 0 0; */
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+
+.question-content__img-girl.-active {
+	opacity: 1;
+	transform: scaleX(-1);
 }
 
 .question-content__img-girl img {
@@ -96,6 +103,15 @@
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	margin-bottom: 1.875rem;
+
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+
+.question-content__title.-active {
+	transform: translate(0px, 0px);
+	opacity: 1;
 }
 
 .question-content__sub-title {
