@@ -17,7 +17,7 @@ const clientsSwiper = new Swiper('.clients-swiper', {
 	  },
   });
 
-  const animItems = document.querySelectorAll('.-anim-items');
+const animItems = document.querySelectorAll('.-anim-items');
 
 if (animItems.length > 0) {
 	window.addEventListener('scroll', animOnScroll);
